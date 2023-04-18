@@ -11,3 +11,5 @@ WHERE genre = 'Disco';
 DELETE
 FROM albums
 WHERE artist = 'Whitney Houston';
+
+-- mysql -u codeup_test_user -p < delete_exercises.sql
