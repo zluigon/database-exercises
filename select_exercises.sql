@@ -12,11 +12,11 @@ SELECT genre AS 'Nevermind Genre'
 FROM albums
 WHERE name = 'Nevermind';
 
-SELECT name AS 'Albums Released in the nineties'
+SELECT name AS 'Albums Released in the 90s'
 FROM albums
-WHERE release_date BETWEEN 1989 AND 2000;
+WHERE release_date BETWEEN 1990 AND 1999;
 
-SELECT name AS 'Albums w/ less than 20million sales'
+SELECT name AS 'Albums w/ less than 20 million certified sales'
 FROM albums
 WHERE sales < 20;
 
