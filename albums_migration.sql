@@ -8,7 +8,8 @@ CREATE TABLE IF NOT EXISTS albums
     artist       VARCHAR(50)  NOT NULL,
     name         VARCHAR(50)  NOT NULL,
     release_date INT UNSIGNED NOT NULL,
-    sales        DOUBLE(4, 2) NOT NULL,
+    sales        DOUBLE(5, 2) NOT NULL,
     genre        VARCHAR(25)  NOT NULL
 );
 
+--  mysql -u codeup_test_user -p < albums_migration.sql
