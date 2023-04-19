@@ -33,4 +33,4 @@ SELECT artist AS 'Artist', name AS 'Album Name'
 FROM albums
 WHERE artist = 'Peter Jackson';
 
--- mysql -u codeup_test_user -p < select_exercises.sql
+-- mysql -u codeup_test_user -p < update_exercises.sql
