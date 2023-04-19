@@ -49,7 +49,7 @@ WHERE year(hire_date) > 1989
         AND day(birth_date) = 25)
 ORDER BY hire_date DESC;
 
-SELECT CONCAT(first_name, ' ', last_name), birth_date, hire_date, DATEDIFF(curdate(), hire_date)
+SELECT CONCAT(first_name, ' ', last_name) AS 'Employee Name', birth_date, hire_date, DATEDIFF(curdate(), hire_date) AS 'Total Days Employed'
 FROM employees
 WHERE year(hire_date) > 1989
   AND (
